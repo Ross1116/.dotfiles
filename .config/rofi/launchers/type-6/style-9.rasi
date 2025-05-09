@@ -14,7 +14,7 @@ configuration {
 * {
     font:                        "Robot Font 12";
     background:                  rgba(30, 30, 46, 0.9);  /* base */
-    background-alt:              rgba(49, 50, 68, 0.9);  /* mantle */
+    background-alt:              rgba(49, 50, 68, 0.8);  /* mantle */
     foreground:                  #D9E0EE;                /* text */
     selected:                    #CBA6F7;                /* mauve */
     active:                      #89B4FA;                /* blue */
