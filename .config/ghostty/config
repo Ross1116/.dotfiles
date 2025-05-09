@@ -47,4 +47,4 @@ theme = catppuccin-mocha
 adjust-cell-height = 20%
 
 window-colorspace = "display-p3"
-
+font-size = 16
