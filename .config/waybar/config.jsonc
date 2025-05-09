@@ -14,6 +14,7 @@
 			"default": ["", "", ""]
 		}
 	},
+
     "cava": {
             "framerate": 240,
             "autosens": 1,
@@ -31,6 +32,8 @@
             "noise_reduction": 0.77,
             "input_delay": 0,
             "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+	    "on-click": "pavucontrol",
+	    "on-click-right" : "pkill -9 pavucontrol"
              },
     //
     // "custom/keybinds": {
@@ -90,7 +93,7 @@
     },
     "hyprland/language": {
         "format": "  {1}",
-        "tooltip": false,
+        "tooltip": false
     },
     "cpu": {
         "interval": 15,
@@ -106,17 +109,17 @@
         "format": " ",
         "on-click": "rofi -show drun",
         "on-click-right": "killall rofi",
-        "tooltip": false,
+        "tooltip": false
     },
     "custom/power":{
         "format": "⏻ ",
         "tooltip": false,
         "on-click": "wlogout",
-        "on-click-right": "killall rofi",
+        "on-click-right": "killall rofi"
     },
     "clock": {
         "format": "  {:%A - %B %d, %Y - %R}",
-        "tooltip": false,
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -131,5 +134,5 @@
             "active": "",
             "default": ""
     },
-    },
+    }
 }
